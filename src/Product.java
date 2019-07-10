@@ -11,5 +11,13 @@ public class Product {
         this.category = category;
     }
 
-
+    void showInfo() {
+        if (this.category != null) {
+            System.out.println("\nKategoria: " + this.category.name + "  " + this.category.description);
+        }
+        else  {
+            System.out.println("\nKategoria: " + " brak kategorii  ");
+        }
+        System.out.println(" - " + this.name + " , cena: " + this.price + "   ,  " + this.description);
+    }
 }

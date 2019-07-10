@@ -12,5 +12,9 @@ public class SpecialOffer {
         this.endSaleDate = endSaleDate;
         this.discount = discount;
     }
-
+    void showInfo() {
+        System.out.println("\n !!! PROMOCJA !!! " + this.description + " " + this.product.name + " , cena: "
+                + (this.product.price - this.product.price*this.discount) + "  !!! ,  "
+                + "oferta od: " + this.startSaleDate +" do: "+ this.endSaleDate  + "\n");
+    }
 }
