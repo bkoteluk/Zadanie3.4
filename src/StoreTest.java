@@ -1,4 +1,6 @@
 public class StoreTest {
+
+
     public static void main(String[] args) {
         Category category1 = new Category("Desery", "Smaczne i niedrogie");
         Category category2 = new Category("Napoje", "Przez \'słomkę\' do serca");
@@ -21,7 +23,7 @@ public class StoreTest {
 
         System.out.println(" !!! PROMOCJA !!! " +specialOffer.description + " " + specialOffer.product.name + " , cena: "
                 + (specialOffer.product.price - specialOffer.product.price*specialOffer.discount) + "  !!! ,  "
-                + "oferta od: " + specialOffer.startOffer +" do: "+ specialOffer.endOffer  + "\n");
+                + "oferta od: " + specialOffer.startSaleDate +" do: "+ specialOffer.endSaleDate  + "\n");
 
     }
 }

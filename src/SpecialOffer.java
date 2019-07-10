@@ -1,15 +1,15 @@
 public class SpecialOffer {
     Product product;
     String description;
-    String startOffer;
-    String endOffer;
+    String startSaleDate;
+    String endSaleDate;
     double discount;
 
-    SpecialOffer(Product product, String description, String startOffer, String endOffer, double discount) {
+    SpecialOffer(Product product, String description, String startSaleDate, String endSaleDate, double discount) {
         this.product = product;
         this.description = description;
-        this.startOffer = startOffer;
-        this.endOffer = endOffer;
+        this.startSaleDate = startSaleDate;
+        this.endSaleDate = endSaleDate;
         this.discount = discount;
     }
 
