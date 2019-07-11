@@ -6,4 +6,8 @@ public class Category {
         this.name = name;
         this.description = description;
     }
+
+    void showInfo() {
+        System.out.println("\nKategoria: " + this.name + "  " + this.description);
+    }
 }

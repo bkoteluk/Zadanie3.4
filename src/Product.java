@@ -13,7 +13,8 @@ public class Product {
 
     void showInfo() {
         if (this.category != null) {
-            System.out.println("\nKategoria: " + this.category.name + "  " + this.category.description);
+//            System.out.println("\nKategoria: " + this.category.name + "  " + this.category.description);
+            this.category.showInfo();
         }
         else  {
             System.out.println("\nKategoria: " + " brak kategorii  ");
